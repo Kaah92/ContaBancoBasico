@@ -8,26 +8,26 @@ public class ContaTerminal {
 		
 		Scanner sc = new Scanner (System.in);
 		
-		int NumeroAgencia; 
-		String Nome_Completo;
-		String ContaAgencia;
+		int numeroAgencia; 
+		String nome_Completo;
+		String contaAgencia;
 		Double saldoBancario = 237.48;
 		
 		System.out.println("Por favor, digite o número da Agência!");		
-		NumeroAgencia = sc.nextInt();
+		numeroAgencia = sc.nextInt();
 		sc.nextLine();
 		
 		System.out.println("Digite o numero da conta: ");
-		ContaAgencia = sc.next();
+		contaAgencia = sc.next();
 		sc.nextLine();
 		
 		System.out.println("Digite seu nome completo: ");
-		Nome_Completo = sc.nextLine();
+		nome_Completo = sc.nextLine();
 		
-		System.out.println("AGÊNCIA: " + NumeroAgencia);
-		System.out.println("CONTA: " + ContaAgencia);
-		System.out.println("NOME: " + Nome_Completo);
-		System.out.println("Olá " + Nome_Completo + ", obrigado por criar uma conta em nosso banco, sua agência é " + NumeroAgencia + ", conta " + ContaAgencia + " e seu saldo R$" + saldoBancario + " já está disponível para saque");
+		System.out.println("AGÊNCIA: " + numeroAgencia);
+		System.out.println("CONTA: " + contaAgencia);
+		System.out.println("NOME: " + come_Completo);
+		System.out.println("Olá " + nome_Completo + ", obrigado por criar uma conta em nosso banco, sua agência é " + numeroAgencia + ", conta " + contaAgencia + " e seu saldo R$" + saldoBancario + " já está disponível para saque");
 		
 		sc.close();
 
